@@ -168,6 +168,7 @@ a:nth-child(2), a:nth-child(3) {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        box-shadow: none;
     }
 
     .left {
@@ -199,10 +200,6 @@ a:nth-child(2), a:nth-child(3) {
 }   
 
     @media (max-width: 450px) {
-    
-        main {
-            box-shadow: none;
-      }
         
     .left {
         width: 20.4rem;
