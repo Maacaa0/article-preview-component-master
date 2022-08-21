@@ -106,7 +106,7 @@ span {
     cursor: pointer;
     background-color: var(--DesaturatedDarkBlue);
     background-image: url(images/icon-share-white.svg);
-    transition: all 200ms ease-in-out;
+    transition: background-color, background-image 200ms ease-in-out;
 }
 
 ::selection {
@@ -199,7 +199,11 @@ a:nth-child(2), a:nth-child(3) {
 }   
 
     @media (max-width: 450px) {
-
+    
+        main {
+            box-shadow: none;
+      }
+        
     .left {
         width: 20.4rem;
         height: 12.6rem;
